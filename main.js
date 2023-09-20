@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+
 const url = "https://love-calculator.p.rapidapi.com/getPercentage?";
       const options = {
         method: "GET",
@@ -28,3 +30,4 @@ const url = "https://love-calculator.p.rapidapi.com/getPercentage?";
             console.error("Error:", error);
           });
       }
+    });
